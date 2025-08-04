@@ -1,4 +1,4 @@
-def interes_simple(capital, tasa, n):
-    return capital * tasa * n
+def interes_simple(monto, porcentaje, n):
+    return monto * porcentaje * n
      
     
