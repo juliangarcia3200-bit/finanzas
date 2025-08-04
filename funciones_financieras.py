@@ -1,3 +1,6 @@
+def interes_simple(monto, porcentaje, n):
+    return monto * porcentaje * n
+     
 def interes_compuesto(capital, tasa, tiempo):
     """
     Calcula el interés compuesto.
