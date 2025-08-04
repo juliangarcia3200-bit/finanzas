@@ -1,3 +1,7 @@
+
+def ahorro(monto_ahorro, tasa_ahorro, tiempo_ahorro):
+    return monto_ahorro * (1+tasa_ahorro) ** tiempo_ahorro
+
 def interes_simple(monto, porcentaje, n):
     return monto * porcentaje * n
      
@@ -11,3 +15,4 @@ def interes_compuesto(capital, tasa, tiempo):
     :return: Monto total después del interés compuesto (float)
     """
     return capital * (1 + tasa) ** tiempo
+
